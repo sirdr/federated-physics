@@ -1,0 +1,19 @@
+name: federated-physics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - matplotlib
+  - requests
+  - huggingface_hub
+  - einops
+  - pip:
+      - torch
+      - torchvision
+      - the-well
+      - ipykernel
+      - jupyterlab
+      - scikit-learn
+      - safetensors
